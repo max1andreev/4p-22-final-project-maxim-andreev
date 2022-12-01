@@ -26,7 +26,7 @@ export default function Main() {
     }, []);
 
     useEffect(() => {
-        let newDisplayProducts = products;
+        let newDisplayProducts = [...products];
         if (selectedCategory) {
             newDisplayProducts = getProductsByCategory(newDisplayProducts);
         }

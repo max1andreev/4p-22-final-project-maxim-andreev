@@ -1,6 +1,5 @@
 .shoppingCart{
     width: 6em;
-    
     position: fixed;
     display: flex;
     flex-direction: column;

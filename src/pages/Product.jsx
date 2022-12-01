@@ -43,12 +43,12 @@ export default function Product() {
                     <p>{product.description}</p>
                 </div>
                 
-                
-            </div><div className="product-info-tag">
+                <div className="product-info-tag">
                     <button className="CommonButton" onClick={() => addToCart(product)}>
                         В корзину
                     </button>
                 </div>
+            </div>
         </div>
     );
 }

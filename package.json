@@ -2,6 +2,7 @@
   "name": "max",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://max1andreev.github.io/4p-22-final-project-maxim-andreev",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
