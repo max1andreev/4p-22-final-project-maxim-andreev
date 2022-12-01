@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import BaseLayout from "./layouts/Base";
 import Product from "./pages/Product";
@@ -10,7 +10,7 @@ import { ShoppingCartContextProvider } from "./contexts/ShoppingCartContext";
 export default function App() {
     return (
         <React.StrictMode>
-            <BrowserRouter>
+            <HashRouter>
                 <ShoppingCartContextProvider>
                     <BaseLayout>
                         <Routes>
@@ -28,7 +28,7 @@ export default function App() {
                         </Routes>
                     </BaseLayout>
                 </ShoppingCartContextProvider>
-            </BrowserRouter>
+            </HashRouter>
         </React.StrictMode>
     );
 }
