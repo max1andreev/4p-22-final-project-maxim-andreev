@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/4p-22-final-project-maxim-andreev/static/css/main.4f1bc873.css",
-    "main.js": "/4p-22-final-project-maxim-andreev/static/js/main.36489b1a.js",
+    "main.js": "/4p-22-final-project-maxim-andreev/static/js/main.ac0c20c8.js",
     "index.html": "/4p-22-final-project-maxim-andreev/index.html",
     "main.4f1bc873.css.map": "/4p-22-final-project-maxim-andreev/static/css/main.4f1bc873.css.map",
-    "main.36489b1a.js.map": "/4p-22-final-project-maxim-andreev/static/js/main.36489b1a.js.map"
+    "main.ac0c20c8.js.map": "/4p-22-final-project-maxim-andreev/static/js/main.ac0c20c8.js.map"
   },
   "entrypoints": [
     "static/css/main.4f1bc873.css",
-    "static/js/main.36489b1a.js"
+    "static/js/main.ac0c20c8.js"
   ]
 }
